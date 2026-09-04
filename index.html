@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tổng hợp link em Dev múp rụp</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<!-- Background ảnh gốc cố định -->
 <body class="text-white font-sans antialiased min-h-screen selection:bg-indigo-500 selection:text-white pb-20 bg-cover bg-center bg-no-repeat bg-fixed relative" style="background-image: url('background.jpg');">
     
+    <!-- LỚP LAYER PHỦ TỐI ĐỂ LÀM CHÌM BACKGROUND -->
     <div class="fixed inset-0 bg-black/45 z-[-1] pointer-events-none"></div>
     
     <div class="max-w-2xl mx-auto px-4 py-16 relative z-10">
         
+        <!-- Phần Avatar -->
         <div class="text-center mb-12">
             <img src="thumbava.JPG" alt="Avatar" class="w-28 h-28 rounded-full mx-auto border-2 border-white/60 shadow-[0_10px_30px_rgba(0,0,0,0.5)] object-cover">
             <h1 class="text-3xl font-bold mt-5 text-white tracking-wide drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">Lộ Link Dev Nguyễn</h1>
@@ -20,6 +24,7 @@
 
         <div class="space-y-6">
 
+            <!-- LINK 1 -->
             <a href="https://tiermaker.com/create/ca-s-vit-nam-mi-la-tui-19815966" target="_blank" 
                class="group block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl overflow-hidden p-3 shadow-[0_15px_35px_rgba(0,0,0,0.4)] hover:bg-white/15 transition-colors duration-300 transform-gpu"
                data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
@@ -34,6 +39,7 @@
                 </div>
             </a>
             
+            <!-- LINK 2 -->
             <a href="https://tiermaker.com/create/din-vin-ngh-s-hi-vit-nam-19815966" target="_blank" 
                class="group block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl overflow-hidden p-3 shadow-[0_15px_35px_rgba(0,0,0,0.4)] hover:bg-white/15 transition-colors duration-300 transform-gpu"
                data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
@@ -48,6 +54,22 @@
                 </div>
             </a>
 
+            <!-- LINK MỚI THÊM (THUMB4) -->
+            <a href="https://tiermaker.com/create/xp-hng-nhng-ngi-ti-mun-c-lp-nht-19815966" target="_blank" 
+               class="group block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl overflow-hidden p-3 shadow-[0_15px_35px_rgba(0,0,0,0.4)] hover:bg-white/15 transition-colors duration-300 transform-gpu"
+               data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                <div class="flex flex-col sm:flex-row items-center sm:items-start gap-4">
+                    <div class="w-full sm:w-48 flex-shrink-0 aspect-video rounded-xl overflow-hidden bg-black/60 relative shadow-inner">
+                        <img src="thumb4.jpg" alt="Thumbnail" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-grow pt-2 sm:pt-0 w-full" style="transform: translateZ(20px);">
+                        <h2 class="text-xl font-bold text-white drop-shadow-md">Xếp hạng những người tôi muốn đấm nhất</h2>
+                        <p class="text-sm text-gray-200 mt-2 line-clamp-2 drop-shadow">Giữ Ctrl lăn chuột để zoom to ảnh nếu bạn bị mù.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- LINK 3 (BỘ CÂU HỎI BÍ MẬT) -->
             <a href="https://bit.ly/4zThfbC" target="_blank" 
                class="group block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl overflow-hidden p-3 shadow-[0_15px_35px_rgba(0,0,0,0.4)] hover:bg-white/15 transition-colors duration-300 transform-gpu"
                data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
@@ -70,6 +92,7 @@
         
     </div>
 
+    <!-- Script Vanilla-tilt -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 </body>
 </html>
